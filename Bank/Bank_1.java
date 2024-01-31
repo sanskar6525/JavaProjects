@@ -36,6 +36,7 @@ public class Bank_1 //For implementing a bank setup using local and anonymous cl
 				+ "\nEnter 0 to exit \n");
 		ch=sc.nextInt();
 		this.Operations(ch);
+		System.out.println("Hello World");
 	}
 	public void Transactions(int c) //Method to perform all kinds of transactions including debit and credit
 	{
